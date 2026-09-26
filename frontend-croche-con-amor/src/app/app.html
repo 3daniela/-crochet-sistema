@@ -1,0 +1,18 @@
+<div class="min-h-screen flex flex-col bg-[#FFFDF9] text-[#2D2027]">
+  <!-- Header con Navegación, Carrito y Favoritos -->
+  <app-header></app-header>
+
+  <!-- Contenido Principal con Enrutador -->
+  <main class="flex-1">
+    <router-outlet></router-outlet>
+  </main>
+
+  <!-- Modal de Detalle / Vista Rápida de Producto -->
+  <app-product-modal></app-product-modal>
+
+  <!-- Panel Deslizante del Carrito de Compras -->
+  <app-cart-drawer></app-cart-drawer>
+
+  <!-- Footer Artesanal Oficial -->
+  <app-footer></app-footer>
+</div>

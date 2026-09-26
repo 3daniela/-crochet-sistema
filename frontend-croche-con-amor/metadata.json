@@ -1,0 +1,8 @@
+{
+  "name": "Croché con Amor",
+  "description": "Sitio web oficial y catálogo artesanal para el emprendimiento de crochet y macramé boho Croché con Amor - Hecho a Mano con pasión y calidez.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

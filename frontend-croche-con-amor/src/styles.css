@@ -1,0 +1,75 @@
+/* Estilos globales y paleta artesanal oficial para 'Croché con Amor' */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --color-primary: #9C1B58;
+  --color-primary-hover: #7E1546;
+  --color-primary-light: #D8366E;
+  --color-accent-orange: #F57D28;
+  --color-gold: #C28B47;
+  --color-bg-cream: #FFFDF9;
+  --color-surface: #FAF4ED;
+  --color-border: #EFE0D2;
+  --color-text-dark: #2D2027;
+  --color-text-muted: #7A626F;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-bg-cream);
+  color: var(--color-text-dark);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, .font-serif {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.brand-gradient {
+  background: linear-gradient(135deg, #9C1B58 0%, #C82B6B 30%, #E24861 60%, #F37D28 90%, #F89B2B 100%);
+}
+
+.brand-gradient-soft {
+  background: linear-gradient(135deg, #FFF0F4 0%, #FFF5ED 50%, #FFFDF9 100%);
+}
+
+.brand-gradient-card {
+  background: linear-gradient(145deg, rgba(255,255,255,0.95) 0%, rgba(255,248,244,0.9) 100%);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #BF8C2E 0%, #E6BA54 50%, #9E6F18 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border {
+  border-color: #E2BC62;
+}
+
+.gold-badge {
+  background: linear-gradient(135deg, #FFF8E7 0%, #FDF1D3 100%);
+  border: 1px solid rgba(212, 175, 55, 0.4);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF4ED;
+}
+::-webkit-scrollbar-thumb {
+  background: #DDBDA3;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9C1B58;
+}
